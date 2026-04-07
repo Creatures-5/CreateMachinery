@@ -1,9 +1,3 @@
-# Immersive Machinery
+# Create: Immersive Machinery
 
-A bunch of rustic machinery to transport, mine, and automate things, while staying close to the vanilla style.
-
-[![Crowdin](https://badges.crowdin.net/immersive-collection/localized.svg)](https://crowdin.com/project/immersive-collection)
-
-Hosted on
-[CurseForge](https://www.curseforge.com/minecraft/mc-mods/immersive-machinery) and
-[Modrinth](https://modrinth.com/mod/immersive-machinery)
+A fork of Immersive Machinery aimed at integration with Create, inspired by [Create Immersive Aircrafts](https://modrinth.com/datapack/create-immersive-aircrafts-recipes)
