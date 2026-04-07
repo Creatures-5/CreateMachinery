@@ -4,12 +4,12 @@
     "item": "minecraft:netherite_ingot"
   },
   "base": {
-    "item": "immersive_machinery:diamond_drill"
+    "item": "create_machinery:diamond_drill"
   },
   "template": {
-    "item": "minecraft:iron_block"
+    "item": "create:andesite_block"
   },
   "result": {
-    "item": "immersive_machinery:netherite_drill"
+    "item": "create_machinery:netherite_drill"
   }
 }

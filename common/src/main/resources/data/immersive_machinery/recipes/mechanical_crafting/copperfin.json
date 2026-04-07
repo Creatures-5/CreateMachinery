@@ -1,0 +1,35 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "W": {
+      "item": "create:industrial_iron_window"
+    },
+    "C": {
+      "item": "create:contraption_controls"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "S": {
+      "tag": "create:seats"
+    },
+    "P": {
+      "tag": "create:pressurized_air_sources"
+    },
+    "L": {
+      "item": "create:fluid_tank"
+    },
+    "F": {
+      "item": "create:encased_fan"
+    }
+  },
+  "pattern": [
+	"FLCW",
+    "EPSW"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_machinery:copperfin"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "R": {
+      "item": "create:brass_casing"
+    },
+    "D": {
+      "item": "create:mechanical_drill"
+    },
+    "V": {
+      "item": "create:vault"
+    },
+    "K": {
+      "item": "create:cogwheel"
+    },
+    "C": {
+      "item": "create:contraption_controls"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "S": {
+      "tag": "create:seats"
+    },
+    "B": {
+      "item": "create:belt"
+    }
+  },
+  "pattern": [
+    "SCD",
+    "VERD",
+    "BBD"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_machinery:tunnel_digger"
+  }
+}

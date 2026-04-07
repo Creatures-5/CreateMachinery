@@ -1,38 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "CER",
-    "HPH",
-    "   "
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "item": "create:smart_observer",
+	"item": "create:mechanical_harvester",
+	"item": "create:smart_chute"
   ],
-  "key": {
-    "R": [
-      {
-        "item": "immersive_machinery:redstone_mechanism"
-      }
-    ],
-    "C": [
-      {
-        "item": "minecraft:copper_ingot"
-      }
-    ],
-    "H": [
-      {
-        "item": "immersive_aircraft:hull"
-      }
-    ],
-    "E": [
-      {
-        "item": "immersive_aircraft:engine"
-      }
-    ],
-    "P": [
-      {
-        "item": "immersive_aircraft:propeller"
-      }
-    ]
-  },
+  
   "result": {
-    "item": "immersive_machinery:redstone_sheep"
+    "item": "create_machinery:redstone_sheep"
   }
 }
