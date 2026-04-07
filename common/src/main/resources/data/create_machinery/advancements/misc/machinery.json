@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "create_machinery:tunnel_digger",
+      "create_machinery:bamboo_bee",
+      "create_machinery:copperfin",
+      "create_machinery:redstone_sheep",
+      "create_machinery:redstone_mechanism",
+      "create_machinery:iron_drill",
+      "create_machinery:diamond_drill",
+      "create_machinery:netherite_drill"
+    ]
+  },
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_item"
+    ]
+  ]
+}

@@ -1,33 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "immersive_machinery",
+  "id": "create_machinery",
   "version": "${version}",
-  "name": "Immersive Machinery",
-  "description": "A bunch of rustic machinery to transport, mine, and automate things, while staying close to the vanilla style.",
+  "name": "Create: Immersive Machinery",
+  "description": "A fork of Immersive Machinery aimed at integration with Create",
   "authors": [
+    "Creatures-5",
     "Luke100000"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/immersive-machinery",
-    "sources": "https://github.com/Luke100000/ImmersiveMachinery",
-    "issues": "https://github.com/Luke100000/ImmersiveMachinery/issues"
+    "homepage": "https://modrinth.com/project/create-immersive-machinery",
+    "sources": "https://github.com/Creatures-5/CreateMachinery",
+    "issues": "https://github.com/Creatures-5/CreateMachinery/issues"
   },
   "license": "GPL-3.0-only",
   "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "immersive_machinery.fabric.CommonFabric"
+      "create_machinery.fabric.CommonFabric"
     ],
     "client": [
-      "immersive_machinery.fabric.ClientFabric"
+      "create_machinery.fabric.ClientFabric"
     ],
     "modmenu": [
-      "immersive_machinery.config.ModMenuIntegration"
+      "create_machinery.config.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "immersive_machinery.mixins.json"
+    "create_machinery.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.11.3",

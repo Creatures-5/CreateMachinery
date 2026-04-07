@@ -14,7 +14,7 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig "immersive_machinery.mixins.json"
+        mixinConfig "create_machinery.mixins.json"
     }
 }
 

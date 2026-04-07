@@ -3,7 +3,7 @@ architectury {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/immersive_machinery.accessWidener")
+    accessWidenerPath = file("src/main/resources/create_machinery.accessWidener")
 }
 
 dependencies {

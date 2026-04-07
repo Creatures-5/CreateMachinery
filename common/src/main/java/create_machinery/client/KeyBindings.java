@@ -1,0 +1,29 @@
+package create_machinery.client;
+
+import com.mojang.blaze3d.platform.InputConstants;
+import net.minecraft.client.KeyMapping;
+import org.lwjgl.glfw.GLFW;
+
+import java.util.LinkedList;
+import java.util.List;
+
+public class KeyBindings {
+    public static final List<KeyMapping> list = new LinkedList<>();
+
+    public static final KeyMapping HORN;
+
+    static {
+        HORN = newKey("horn", GLFW.GLFW_KEY_H);
+    }
+
+    private static KeyMapping newKey(String name, int code) {
+        KeyMapping key = new KeyMapping(
+                "key.create_machinery." + name,
+                InputConstants.Type.KEYSYM,
+                code,
+                "itemGroup.create_machinery.create_machinery_tab"
+        );
+        list.add(key);
+        return key;
+    }
+}
