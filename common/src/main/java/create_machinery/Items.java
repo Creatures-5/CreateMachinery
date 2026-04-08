@@ -30,8 +30,6 @@ public interface Items {
     Supplier<Item> COPPERFIN = register("copperfin", () -> new MachineryItem(vehicleProp(),
             world -> new Copperfin(Entities.COPPERFIN.get(), world)));
 
-    Supplier<Item> REDSTONE_MECHANISM = register("redstone_mechanism", () -> new Item(new Item.Properties().stacksTo(64)));
-    Supplier<Item> IRON_DRILL = register("iron_drill", () -> new Item(new Item.Properties().stacksTo(8)));
     Supplier<Item> BRASS_DRILL = register("brass_drill", () -> new Item(new Item.Properties().stacksTo(8)));
     Supplier<Item> STURDY_DRILL = register("sturdy_drill", () -> new Item(new Item.Properties().stacksTo(8)));
 
