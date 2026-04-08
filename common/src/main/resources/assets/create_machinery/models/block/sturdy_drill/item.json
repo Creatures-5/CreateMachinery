@@ -4,11 +4,11 @@
 	"textures": {
 		"0": "create:block/axis_top",
 		"1": "create:block/axis",
-		"2": "block/netherite_block",
+		"2": "create_machinery:item/sturdy_drill",
 		"7": "block/polished_andesite",
 		"8": "create:block/mechanical_drill_top",
 		"10": "create:block/andesite_casing_very_short",
-		"particle": "block/netherite_block",
+		"particle": "create:block/railway_casing",
 		"gearbox": "create:block/gearbox"
 	},
 	"elements": [
