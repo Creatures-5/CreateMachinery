@@ -1,9 +1,9 @@
-package immersive_machinery.forge;
+package create_machinery.forge;
 
-import immersive_machinery.Client;
-import immersive_machinery.Common;
-import immersive_machinery.Renderer;
-import immersive_machinery.client.KeyBindings;
+import create_machinery.Client;
+import create_machinery.Common;
+import create_machinery.Renderer;
+import create_machinery.client.KeyBindings;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterKeyMappingsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
