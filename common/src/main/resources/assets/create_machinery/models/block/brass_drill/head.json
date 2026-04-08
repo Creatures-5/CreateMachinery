@@ -5,8 +5,8 @@
 		"0": "create:block/axis_top",
 		"1": "create:block/axis",
 		"2": "create_machinery:item/brass_drill",
-		"10": "create:block/andesite_casing_very_short",
-		"particle": "create:block/brass_block"
+		"10": "create_machinery:block/brass_casing_very_short",
+		"particle": "create:block/brass_casing"
 	},
 	"elements": [
 		{

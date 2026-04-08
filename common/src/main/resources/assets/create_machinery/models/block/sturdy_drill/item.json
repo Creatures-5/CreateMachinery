@@ -7,9 +7,9 @@
 		"2": "create_machinery:item/sturdy_drill",
 		"7": "block/polished_andesite",
 		"8": "create:block/mechanical_drill_top",
-		"10": "create:block/andesite_casing_very_short",
+		"10": "create_machinery:block/railway_casing_very_short",
 		"particle": "create:block/railway_casing",
-		"gearbox": "create:block/gearbox"
+		"gearbox": "create:block/brass_gearbox"
 	},
 	"elements": [
 		{

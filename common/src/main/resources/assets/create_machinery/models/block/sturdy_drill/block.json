@@ -3,10 +3,10 @@
 	"parent": "block/block",
 	"textures": {
 		"4": "create:block/mechanical_drill_top",
-		"10": "create:block/andesite_casing_very_short",
+		"10": "create_machinery:block/railway_casing_very_short",
 		"gearbox_top": "create:block/gearbox_top",
-		"particle": "create:block/gearbox",
-		"gearbox": "create:block/gearbox"
+		"particle": "create:block/railway_casing",
+		"gearbox": "create:block/brass_gearbox"
 	},
 	"elements": [
 		{
