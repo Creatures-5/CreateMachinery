@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "PSP",
-    " E ",
+    "|E|",
     "PAP"
   ],
   "key": {
@@ -16,9 +16,9 @@
         "item": "immersive_aircraft:engine"
       }
     ],
-    "B": [
+    "|": [
       {
-        "item": "minecraft:bamboo"
+        "item": "create:shaft"
       }
     ],
     "P": [
@@ -28,7 +28,7 @@
     ],
     "S": [
       {
-        "item": "create:smart_observer"
+        "item": "create:content_observer"
       }
     ]
   },

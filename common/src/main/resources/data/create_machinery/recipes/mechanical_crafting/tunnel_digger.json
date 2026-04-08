@@ -9,10 +9,7 @@
       "item": "create:mechanical_drill"
     },
     "V": {
-      "item": "create:vault"
-    },
-    "K": {
-      "item": "create:cogwheel"
+      "item": "create:item_vault"
     },
     "C": {
       "item": "create:contraption_controls"
@@ -24,13 +21,13 @@
       "tag": "create:seats"
     },
     "B": {
-      "item": "create:belt"
+      "item": "create:belt_connector"
     }
   },
   "pattern": [
-    "SCD",
+    "SCD ",
     "VERD",
-    "BBD"
+    "BBD "
   ],
   "result": {
     "count": 1,
