@@ -22,18 +22,16 @@ subprojects {
 
     repositories {
         maven { url = 'https://maven.parchmentmc.org' } //Parchment mappings
-        
         maven { url = "https://maven.blamejared.com/" } // JEI
         maven { url = "https://maven.tterrag.com/" } // Flywheel on both, Create and Registrate on forge
-
         maven { url "https://maven.terraformersmc.com/releases/" }
         maven { url = "https://dvs1.progwml6.com/files/maven/" }
         maven { url "<https://maven.shedaniel.me/>" }
         maven { url "<https://maven.architectury.dev/>" }
-        maven { url "https://nexus.resourcefulbees.com/repository/maven-public/" }
+        maven { url "https://nexus.resourcefulbees.com/repository/maven-public/" } //required for bamboo bee
         maven { url "https://maven.teamresourceful.com/repository/maven-public/" }
         maven { url "https://cursemaven.com" }
-        maven { url "https://maven.conczin.net/Artifacts" }
+        maven { url "https://maven.conczin.net/Artifacts" } //presumably for Immersive Aircraft integration
         maven { url "https://maven.wispforest.io/releases" }
     }
 
@@ -81,19 +79,6 @@ allprojects {
 
     java {
         withSourcesJar()
-    }
-
-    publishing {
-        repositories {
-            maven {
-                name = "reposiliteRepository"
-                url = uri("https://maven.conczin.net/Artifacts")
-                credentials {
-                    username = System.getenv("MAVEN_USERNAME")
-                    password = System.getenv("MAVEN_TOKEN")
-                }
-            }
-        }
     }
 
     def exclusionPatterns = ['**/*.aup3', '**/.xdp-*', '**/*.kra', '**/*~*']
