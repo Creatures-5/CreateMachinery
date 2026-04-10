@@ -23,10 +23,10 @@ dependencies {
     modImplementation "net.fabricmc:fabric-loader:${rootProject.fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${rootProject.fabric_api_version}"
 
-    modCompileOnly("com.terraformersmc:modmenu:${rootProject.mod_menu_version}") { transitive false }
+    modCompileOnly("com.terraformersmc:modmenu:${rootProject.mod_menu_version}") { transitive = false }
 
-    common(project(path: ":common", configuration: "namedElements")) { transitive false }
-    shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive false }
+    common(project(path: ":common", configuration: "namedElements")) { transitive = false }
+    shadowCommon(project(path: ":common", configuration: "transformProductionFabric")) { transitive = false }
 
     modImplementation("net.conczin:immersive_aircraft:${immersive_aircraft_version}+fabric")
 
