@@ -27,12 +27,8 @@ subprojects {
 
         maven { url = "https://maven.tterrag.com/" } // Flywheel on both, Create and Registrate on forge
 
-        maven { url = "https://maven.terraformersmc.com/releases/" }
         maven { url = "https://dvs1.progwml6.com/files/maven/" }
-        maven { url = "<https://maven.shedaniel.me/>" }
-        maven { url = "<https://maven.architectury.dev/>" }
         maven { url = "https://cursemaven.com" }
-        maven { url = "https://maven.wispforest.io/releases" }
 
         maven { url = "https://nexus.resourcefulbees.com/repository/maven-public/" } //required for bamboo bee
         maven { url = "https://maven.teamresourceful.com/repository/maven-public/" }
@@ -42,10 +38,10 @@ subprojects {
 
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.architectury.minecraft}"
-        mappings loom.layered() {
-            officialMojangMappings()
-            parchment("org.parchmentmc.data:parchment-${rootProject.minecraft_version}:${rootProject.parchment_version}@zip")
-        }
+        // Can't use parchment for some reason, game ends up completely unmapped
+        mappings loom.officialMojangMappings()
+
+        // see each subproject for more dependencies
     }
 }
 
@@ -75,6 +71,7 @@ allprojects {
     apply plugin: "maven-publish"
 
     archivesBaseName = rootProject.archives_base_name
+    group = rootProject.group_id
     version = getAppVersion()
 
     tasks.withType(JavaCompile) {
