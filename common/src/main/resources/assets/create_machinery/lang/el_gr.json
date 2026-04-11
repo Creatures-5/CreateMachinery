@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Drill on",
   "create_machinery.tunnel_digger.drill_off": "Τρυπάνι μακριά",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% ταχύτητα διάτρησης",
-  "immersive_aircraft.slot.im_shards": "Θραύσματα αμέθυστου για ταχύτερη διάτρηση",
-  "immersive_aircraft.slot.im_filter": "Φίλτρο αντικειμένου"
+  "immersive_aircraft.slot.cm_cakes": "Θραύσματα αμέθυστου για ταχύτερη διάτρηση",
+  "immersive_aircraft.slot.cm_filter": "Φίλτρο αντικειμένου"
 }

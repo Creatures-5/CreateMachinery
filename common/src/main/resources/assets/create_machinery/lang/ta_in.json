@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "துளை",
   "create_machinery.tunnel_digger.drill_off": "துளை",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% துளையிடும் வேகம்",
-  "immersive_aircraft.slot.im_shards": "வேகமான துளையிடலுக்கான அமெதிஸ்ட் துண்டுகள்",
-  "immersive_aircraft.slot.im_filter": "பொருள் வடிகட்டி"
+  "immersive_aircraft.slot.cm_cakes": "வேகமான துளையிடலுக்கான அமெதிஸ்ட் துண்டுகள்",
+  "immersive_aircraft.slot.cm_filter": "பொருள் வடிகட்டி"
 }

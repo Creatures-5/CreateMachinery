@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Drill gainean",
   "create_machinery.tunnel_digger.drill_off": "Drill itzalita",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% zulatzeko abiadura",
-  "immersive_aircraft.slot.im_shards": "Amethyst txikiak zulaketa azkarragoa lortzeko",
-  "immersive_aircraft.slot.im_filter": "Elementu Iragazkia"
+  "immersive_aircraft.slot.cm_cakes": "Amethyst txikiak zulaketa azkarragoa lortzeko",
+  "immersive_aircraft.slot.cm_filter": "Elementu Iragazkia"
 }

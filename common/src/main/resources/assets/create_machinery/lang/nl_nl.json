@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Boor op",
   "create_machinery.tunnel_digger.drill_off": "Boor uit",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% boorsnelheid",
-  "immersive_aircraft.slot.im_shards": "Amethist scherven om sneller te boren",
-  "immersive_aircraft.slot.im_filter": "Item Filter"
+  "immersive_aircraft.slot.cm_cakes": "Amethist scherven om sneller te boren",
+  "immersive_aircraft.slot.cm_filter": "Item Filter"
 }

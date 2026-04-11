@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Dríl ar",
   "create_machinery.tunnel_digger.drill_off": "Dríl as",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% luas dríleála",
-  "immersive_aircraft.slot.im_shards": "Shárdaí Amethyst le haghaidh dríleála níos tapúla",
-  "immersive_aircraft.slot.im_filter": "Scagaire Míre"
+  "immersive_aircraft.slot.cm_cakes": "Shárdaí Amethyst le haghaidh dríleála níos tapúla",
+  "immersive_aircraft.slot.cm_filter": "Scagaire Míre"
 }

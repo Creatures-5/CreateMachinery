@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Boar oan",
   "create_machinery.tunnel_digger.drill_off": "Boar ôf",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% boar snelheid",
-  "immersive_aircraft.slot.im_shards": "Amethyst Skiven foar rapper boarjen",
-  "immersive_aircraft.slot.im_filter": "Item Filter"
+  "immersive_aircraft.slot.cm_cakes": "Amethyst Skiven foar rapper boarjen",
+  "immersive_aircraft.slot.cm_filter": "Item Filter"
 }

@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Trapano acceso",
   "create_machinery.tunnel_digger.drill_off": "Trapano spento",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% velocità di perforazione",
-  "immersive_aircraft.slot.im_shards": "Shard di ametista per perforare più rapidamente",
-  "immersive_aircraft.slot.im_filter": "Filtro oggetti"
+  "immersive_aircraft.slot.cm_cakes": "Shard di ametista per perforare più rapidamente",
+  "immersive_aircraft.slot.cm_filter": "Filtro oggetti"
 }

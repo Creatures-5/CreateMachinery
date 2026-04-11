@@ -4,7 +4,7 @@
   },
   "inventorySlots": [
     {"type": "inventory", "x": 22, "y": 40},
-    {"type": "im_filter", "x": 71, "y": 20, "cols": 5, "rows": 3}
+    {"type": "cm_filter", "x": 71, "y": 20, "cols": 5, "rows": 3}
   ],
   "weaponMounts": [
   ],

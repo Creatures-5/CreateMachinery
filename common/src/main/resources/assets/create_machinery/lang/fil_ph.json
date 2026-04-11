@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Bakat On",
   "create_machinery.tunnel_digger.drill_off": "Bakat Off",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% bilis ng pagbabarena",
-  "immersive_aircraft.slot.im_shards": "Amethyst Shards para sa mas mabilis na pagbabarena",
-  "immersive_aircraft.slot.im_filter": "Item Filter"
+  "immersive_aircraft.slot.cm_cakes": "Blaze Cakes para sa mas mabilis na pagbabarena",
+  "immersive_aircraft.slot.cm_filter": "Item Filter"
 }

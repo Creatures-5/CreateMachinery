@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Forer",
   "create_machinery.tunnel_digger.drill_off": "Arrêter de forer",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% de vitesse de forage",
-  "immersive_aircraft.slot.im_shards": "Éclats d'améthyste pour un forage plus rapide",
-  "immersive_aircraft.slot.im_filter": "Filtre d'objet"
+  "immersive_aircraft.slot.cm_cakes": "Éclats d'améthyste pour un forage plus rapide",
+  "immersive_aircraft.slot.cm_filter": "Filtre d'objet"
 }

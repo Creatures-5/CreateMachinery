@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "드릴온",
   "create_machinery.tunnel_digger.drill_off": "드릴 오프",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% 드릴링 속도",
-  "immersive_aircraft.slot.im_shards": "빠른 드릴링을 위한 자수정 조각",
-  "immersive_aircraft.slot.im_filter": "항목 필터"
+  "immersive_aircraft.slot.cm_cakes": "빠른 드릴링을 위한 자수정 조각",
+  "immersive_aircraft.slot.cm_filter": "항목 필터"
 }

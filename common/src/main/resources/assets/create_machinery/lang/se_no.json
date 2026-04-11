@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Rašši on",
   "create_machinery.tunnel_digger.drill_off": "Rašši av",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% raššihitmus",
-  "immersive_aircraft.slot.im_shards": "Amethyst frakká raššanimu",
-  "immersive_aircraft.slot.im_filter": "Oarma filtara"
+  "immersive_aircraft.slot.cm_cakes": "Amethyst frakká raššanimu",
+  "immersive_aircraft.slot.cm_filter": "Oarma filtara"
 }

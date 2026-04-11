@@ -28,7 +28,7 @@ public class Client {
         registerVehicleScreen(Copperfin.class, (vehicle, handler, player) -> new CopperfinScreen(vehicle, handler, player.getInventory(), vehicle.getDisplayName()));
 
         // Register slot renderers
-        SlotRenderer.register(Common.SLOT_SHARDS, new MachinerySlotRenderer(0, 22, false));
+        SlotRenderer.register(Common.SLOT_CAKES, new MachinerySlotRenderer(0, 22, false));
         SlotRenderer.register(Common.SLOT_FILTER, new MachinerySlotRenderer(110, 18, true));
     }
 

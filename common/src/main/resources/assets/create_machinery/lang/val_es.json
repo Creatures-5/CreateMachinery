@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Foradar encès",
   "create_machinery.tunnel_digger.drill_off": "Foradar apagat",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% velocitat de forat",
-  "immersive_aircraft.slot.im_shards": "Fragments d'Amatista per a un forat més ràpid",
-  "immersive_aircraft.slot.im_filter": "Filtre d'Item"
+  "immersive_aircraft.slot.cm_cakes": "Fragments d'Amatista per a un forat més ràpid",
+  "immersive_aircraft.slot.cm_filter": "Filtre d'Item"
 }

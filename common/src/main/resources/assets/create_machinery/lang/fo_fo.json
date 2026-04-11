@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Drillur á",
   "create_machinery.tunnel_digger.drill_off": "Drillur av",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% drillivspøtt",
-  "immersive_aircraft.slot.im_shards": "Amethyst bita til skjótari drilling",
-  "immersive_aircraft.slot.im_filter": "Ting filtr"
+  "immersive_aircraft.slot.cm_cakes": "Amethyst bita til skjótari drilling",
+  "immersive_aircraft.slot.cm_filter": "Ting filtr"
 }

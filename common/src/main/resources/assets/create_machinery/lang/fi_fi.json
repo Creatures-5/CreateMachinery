@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Poraa päälle",
   "create_machinery.tunnel_digger.drill_off": "Pora pois",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% porausnopeus",
-  "immersive_aircraft.slot.im_shards": "Ametistisirpaleet nopeuttavat porausta",
-  "immersive_aircraft.slot.im_filter": "Kohteen suodatin"
+  "immersive_aircraft.slot.cm_cakes": "Ametistisirpaleet nopeuttavat porausta",
+  "immersive_aircraft.slot.cm_filter": "Kohteen suodatin"
 }

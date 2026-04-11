@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Drill fuq",
   "create_machinery.tunnel_digger.drill_off": "Drill off",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% ħeffa ta' drilling",
-  "immersive_aircraft.slot.im_shards": "Frak tal-Amethyst għal drilling aktar mgħaġġel",
-  "immersive_aircraft.slot.im_filter": "Filtru tal-Oġġetti"
+  "immersive_aircraft.slot.cm_cakes": "Frak tal-Amethyst għal drilling aktar mgħaġġel",
+  "immersive_aircraft.slot.cm_filter": "Filtru tal-Oġġetti"
 }

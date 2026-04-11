@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Бурити вкл",
   "create_machinery.tunnel_digger.drill_off": "Бурити вимкнено",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% швидкість буріння",
-  "immersive_aircraft.slot.im_shards": "Аметистові шматочки для швидшого буріння",
-  "immersive_aircraft.slot.im_filter": "Фільтр предметів"
+  "immersive_aircraft.slot.cm_cakes": "Аметистові шматочки для швидшого буріння",
+  "immersive_aircraft.slot.cm_filter": "Фільтр предметів"
 }

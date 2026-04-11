@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Taladro activado",
   "create_machinery.tunnel_digger.drill_off": "Taladro desactivado",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% velocidad de perforación",
-  "immersive_aircraft.slot.im_shards": "Fragmentos de amatista para perforación más rápida",
-  "immersive_aircraft.slot.im_filter": "Filtro de Objetos"
+  "immersive_aircraft.slot.cm_cakes": "Fragmentos de amatista para perforación más rápida",
+  "immersive_aircraft.slot.cm_filter": "Filtro de Objetos"
 }

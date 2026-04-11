@@ -6,7 +6,7 @@ import immersive_aircraft.resources.bbmodel.BBAnimationVariables;
 import create_machinery.network.NetworkManager;
 import create_machinery.entity.inventory.TooltippedSlotDescription;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.Items;
+import com.simibubi.create.AllItems; //import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,9 +20,9 @@ public final class Common {
     public static NetworkManager networkManager;
 
     // Define slot types
-    public static final String SLOT_FILTER = registerSlotType("im_filter", TooltippedSlotDescription::new, TooltippedSlotDescription::new);
-    public static final String SLOT_SHARDS = registerSlotType("im_shards",
-            (type, index, x, y, json) -> new IngredientSlotDescription(type, index, x, y, json, Ingredient.of(Items.AMETHYST_SHARD), 64),
+    public static final String SLOT_FILTER = registerSlotType("cm_filter", TooltippedSlotDescription::new, TooltippedSlotDescription::new);
+    public static final String SLOT_CAKES = registerSlotType("cm_cakes",
+            (type, index, x, y, json) -> new IngredientSlotDescription(type, index, x, y, json, Ingredient.of(AllItems.BLAZE_CAKE), 64),
             IngredientSlotDescription::new);
 
 

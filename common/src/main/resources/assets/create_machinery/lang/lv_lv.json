@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Urbis uz",
   "create_machinery.tunnel_digger.drill_off": "Izslēgt urbi",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% urbšanas ātrums",
-  "immersive_aircraft.slot.im_shards": "Ametista lauskas ātrākai urbšanai",
-  "immersive_aircraft.slot.im_filter": "Vienuma filtrs"
+  "immersive_aircraft.slot.cm_cakes": "Ametista lauskas ātrākai urbšanai",
+  "immersive_aircraft.slot.cm_filter": "Vienuma filtrs"
 }

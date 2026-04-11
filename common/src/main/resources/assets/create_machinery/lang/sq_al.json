@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Bore mbi",
   "create_machinery.tunnel_digger.drill_off": "Bore jashtë",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% shpejtësia e gërmimit",
-  "immersive_aircraft.slot.im_shards": "Bishë Amethyst për gërmim më të shpejtë",
-  "immersive_aircraft.slot.im_filter": "Filtro Artikuj"
+  "immersive_aircraft.slot.cm_cakes": "Bishë Amethyst për gërmim më të shpejtë",
+  "immersive_aircraft.slot.cm_filter": "Filtro Artikuj"
 }

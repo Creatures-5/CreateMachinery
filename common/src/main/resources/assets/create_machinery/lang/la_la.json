@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Fodina on",
   "create_machinery.tunnel_digger.drill_off": "Fodina off",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% velocitas effodienda",
-  "immersive_aircraft.slot.im_shards": "Fragmenta Amethysti ad celerius effodiendum",
-  "immersive_aircraft.slot.im_filter": "Filtrum Item"
+  "immersive_aircraft.slot.cm_cakes": "Fragmenta Amethysti ad celerius effodiendum",
+  "immersive_aircraft.slot.cm_filter": "Filtrum Item"
 }

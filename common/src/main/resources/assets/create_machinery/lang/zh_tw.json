@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "鑽孔",
   "create_machinery.tunnel_digger.drill_off": "鑽脫",
   "immersive_aircraft.upgrade.drillingspeed": "%s%%鑽孔速度",
-  "immersive_aircraft.slot.im_shards": "紫水晶碎片可加快鑽孔速度",
-  "immersive_aircraft.slot.im_filter": "項目篩選"
+  "immersive_aircraft.slot.cm_cakes": "紫水晶碎片可加快鑽孔速度",
+  "immersive_aircraft.slot.cm_filter": "項目篩選"
 }

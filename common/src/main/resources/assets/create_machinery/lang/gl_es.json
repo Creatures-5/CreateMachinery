@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Broca activada",
   "create_machinery.tunnel_digger.drill_off": "Broca desactivada",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% velocidade de perforación",
-  "immersive_aircraft.slot.im_shards": "Fragmentos de amatista para perforación máis rápida",
-  "immersive_aircraft.slot.im_filter": "Filtro de elementos"
+  "immersive_aircraft.slot.cm_cakes": "Fragmentos de amatista para perforación máis rápida",
+  "immersive_aircraft.slot.cm_filter": "Filtro de elementos"
 }

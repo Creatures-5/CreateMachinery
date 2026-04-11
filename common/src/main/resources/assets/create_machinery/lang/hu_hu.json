@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Drill on",
   "create_machinery.tunnel_digger.drill_off": "Fúrás ki",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% fúrási sebesség",
-  "immersive_aircraft.slot.im_shards": "Ametiszt szilánkok a gyorsabb fúráshoz",
-  "immersive_aircraft.slot.im_filter": "Tétel szűrő"
+  "immersive_aircraft.slot.cm_cakes": "Ametiszt szilánkok a gyorsabb fúráshoz",
+  "immersive_aircraft.slot.cm_filter": "Tétel szűrő"
 }

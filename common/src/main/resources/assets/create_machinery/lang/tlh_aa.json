@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "drill nI'",
   "create_machinery.tunnel_digger.drill_off": "drill ghom",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% drilling veloc",
-  "immersive_aircraft.slot.im_shards": "amethyst shards ghunIn nI'",
-  "immersive_aircraft.slot.im_filter": "item ghunIn"
+  "immersive_aircraft.slot.cm_cakes": "Blaze Cakes ghunIn nI'",
+  "immersive_aircraft.slot.cm_filter": "item ghunIn"
 }

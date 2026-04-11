@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "เจาะอยู่",
   "create_machinery.tunnel_digger.drill_off": "ปิดเจาะ",
   "immersive_aircraft.upgrade.drillingspeed": "ความเร็วการเจาะ %s%%",
-  "immersive_aircraft.slot.im_shards": "Amethyst Shards สำหรับการเจาะที่เร็วกว่า",
-  "immersive_aircraft.slot.im_filter": "ตัวกรองสินค้า"
+  "immersive_aircraft.slot.cm_cakes": "Blaze Cakes สำหรับการเจาะที่เร็วกว่า",
+  "immersive_aircraft.slot.cm_filter": "ตัวกรองสินค้า"
 }

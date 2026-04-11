@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Trivella on",
   "create_machinery.tunnel_digger.drill_off": "Trivella off",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% velocitât di trivellâ",
-  "immersive_aircraft.slot.im_shards": "Amethyst Shards par une trivellazion plui rapide",
-  "immersive_aircraft.slot.im_filter": "Filtr di Oggetti"
+  "immersive_aircraft.slot.cm_cakes": "Blaze Cakes par une trivellazion plui rapide",
+  "immersive_aircraft.slot.cm_filter": "Filtr di Oggetti"
 }

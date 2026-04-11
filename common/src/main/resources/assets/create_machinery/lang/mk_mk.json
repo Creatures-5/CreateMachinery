@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Дрил вкл",
   "create_machinery.tunnel_digger.drill_off": "Дрил искл",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% брзина на дупчење",
-  "immersive_aircraft.slot.im_shards": "Аметистни Шиџи за побрзо дупчење",
-  "immersive_aircraft.slot.im_filter": "Филтер за предмети"
+  "immersive_aircraft.slot.cm_cakes": "Аметистни Шиџи за побрзо дупчење",
+  "immersive_aircraft.slot.cm_filter": "Филтер за предмети"
 }

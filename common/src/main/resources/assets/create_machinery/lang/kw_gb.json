@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Dril war",
   "create_machinery.tunnel_digger.drill_off": "Dril off",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% ypoledh dril",
-  "immersive_aircraft.slot.im_shards": "Amethyst Jynn dhe gura dre dril",
-  "immersive_aircraft.slot.im_filter": "Filtar Eitem"
+  "immersive_aircraft.slot.cm_cakes": "Amethyst Jynn dhe gura dre dril",
+  "immersive_aircraft.slot.cm_filter": "Filtar Eitem"
 }

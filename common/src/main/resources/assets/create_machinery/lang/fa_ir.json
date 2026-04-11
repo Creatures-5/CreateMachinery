@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "دریل روشن",
   "create_machinery.tunnel_digger.drill_off": "دریل خاموش",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% سرعت حفاری",
-  "immersive_aircraft.slot.im_shards": "تراشه های آمتیست برای حفاری سریع تر",
-  "immersive_aircraft.slot.im_filter": "فیلتر آیتم"
+  "immersive_aircraft.slot.cm_cakes": "تراشه های آمتیست برای حفاری سریع تر",
+  "immersive_aircraft.slot.cm_filter": "فیلتر آیتم"
 }

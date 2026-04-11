@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Өрмийн",
   "create_machinery.tunnel_digger.drill_off": "Өрмийг унтраах",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% өрөмдлөгийн хурд",
-  "immersive_aircraft.slot.im_shards": "Хурдтай өрөмдөхөд амфитеус чулуу",
-  "immersive_aircraft.slot.im_filter": "Загвар шүүр"
+  "immersive_aircraft.slot.cm_cakes": "Хурдтай өрөмдөхөд амфитеус чулуу",
+  "immersive_aircraft.slot.cm_filter": "Загвар шүүр"
 }

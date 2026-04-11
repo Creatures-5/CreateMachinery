@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Bor á",
   "create_machinery.tunnel_digger.drill_off": "Bor af",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% borun hraði",
-  "immersive_aircraft.slot.im_shards": "Amethyst bitar fyrir hraðari borun",
-  "immersive_aircraft.slot.im_filter": "Vöru filtrun"
+  "immersive_aircraft.slot.cm_cakes": "Amethyst bitar fyrir hraðari borun",
+  "immersive_aircraft.slot.cm_filter": "Vöru filtrun"
 }

@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Boor an",
   "create_machinery.tunnel_digger.drill_off": "Boor ut",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% Boorgeschwindigkeit",
-  "immersive_aircraft.slot.im_shards": "Amethystscherven för snellern boorn",
-  "immersive_aircraft.slot.im_filter": "Itemfilter"
+  "immersive_aircraft.slot.cm_cakes": "Amethystscherven för snellern boorn",
+  "immersive_aircraft.slot.cm_filter": "Itemfilter"
 }

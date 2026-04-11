@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Wierć dalej",
   "create_machinery.tunnel_digger.drill_off": "Odwierć",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% prędkości wiercenia",
-  "immersive_aircraft.slot.im_shards": "Ametystowe odłamki dla szybszego wiercenia",
-  "immersive_aircraft.slot.im_filter": "Filtr przedmiotów"
+  "immersive_aircraft.slot.cm_cakes": "Ametystowe odłamki dla szybszego wiercenia",
+  "immersive_aircraft.slot.cm_filter": "Filtr przedmiotów"
 }

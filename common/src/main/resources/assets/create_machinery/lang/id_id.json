@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Bor di",
   "create_machinery.tunnel_digger.drill_off": "Bor off",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% kecepatan pengeboran",
-  "immersive_aircraft.slot.im_shards": "Pecahan Kecubung untuk pengeboran yang lebih cepat",
-  "immersive_aircraft.slot.im_filter": "Filter Item"
+  "immersive_aircraft.slot.cm_cakes": "Pecahan Kecubung untuk pengeboran yang lebih cepat",
+  "immersive_aircraft.slot.cm_filter": "Filter Item"
 }

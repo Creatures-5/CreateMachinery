@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Boormasjien aan",
   "create_machinery.tunnel_digger.drill_off": "Boormasjien af",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% boor spoed",
-  "immersive_aircraft.slot.im_shards": "Amethyst-skilfers vir vinniger boor",
-  "immersive_aircraft.slot.im_filter": "Item Filter"
+  "immersive_aircraft.slot.cm_cakes": "Amethyst-skilfers vir vinniger boor",
+  "immersive_aircraft.slot.cm_filter": "Item Filter"
 }

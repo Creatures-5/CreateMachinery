@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Drill on",
   "create_machinery.tunnel_digger.drill_off": "Drill off",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% drilling speed",
-  "immersive_aircraft.slot.im_shards": "Amethyst Shards for faster drilling",
-  "immersive_aircraft.slot.im_filter": "Item Filter"
+  "immersive_aircraft.slot.cm_cakes": "Blaze Cakes for faster drilling",
+  "immersive_aircraft.slot.cm_filter": "Item Filter"
 }

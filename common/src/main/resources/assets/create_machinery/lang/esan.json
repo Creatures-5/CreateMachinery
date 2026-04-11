@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Perforar encendido",
   "create_machinery.tunnel_digger.drill_off": "Perforar apagado",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% de velocidad de perforación",
-  "immersive_aircraft.slot.im_shards": "Fragmentos de Amatista para una perforación más rápida",
-  "immersive_aircraft.slot.im_filter": "Filtro de artículos"
+  "immersive_aircraft.slot.cm_cakes": "Fragmentos de Amatista para una perforación más rápida",
+  "immersive_aircraft.slot.cm_filter": "Filtro de artículos"
 }

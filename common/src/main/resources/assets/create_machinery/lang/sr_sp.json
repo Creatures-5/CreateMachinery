@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Укључи бушилицу",
   "create_machinery.tunnel_digger.drill_off": "Искључи бушилицу",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% брзина бушења",
-  "immersive_aircraft.slot.im_shards": "Аметист Комадићи за брже бушење",
-  "immersive_aircraft.slot.im_filter": "Филтер Предмета"
+  "immersive_aircraft.slot.cm_cakes": "Аметист Комадићи за брже бушење",
+  "immersive_aircraft.slot.cm_filter": "Филтер Предмета"
 }

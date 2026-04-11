@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Bušilica uključena",
   "create_machinery.tunnel_digger.drill_off": "Bušilica isključena",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% brzina bušenja",
-  "immersive_aircraft.slot.im_shards": "Amethystni fragmenti za brže bušenje",
-  "immersive_aircraft.slot.im_filter": "Filter za stavke"
+  "immersive_aircraft.slot.cm_cakes": "Amethystni fragmenti za brže bušenje",
+  "immersive_aircraft.slot.cm_filter": "Filter za stavke"
 }

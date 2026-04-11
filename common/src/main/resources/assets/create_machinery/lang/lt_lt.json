@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Gręžkite",
   "create_machinery.tunnel_digger.drill_off": "Išjungti gręžimą",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% gręžimo greitis",
-  "immersive_aircraft.slot.im_shards": "Ametisto skeveldros greitesniam gręžimui",
-  "immersive_aircraft.slot.im_filter": "Prekės filtras"
+  "immersive_aircraft.slot.cm_cakes": "Ametisto skeveldros greitesniam gręžimui",
+  "immersive_aircraft.slot.cm_filter": "Prekės filtras"
 }

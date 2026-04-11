@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Бур включен",
   "create_machinery.tunnel_digger.drill_off": "Бур выключен",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% скорость бурения",
-  "immersive_aircraft.slot.im_shards": "Осколки аметиста для более быстрого бурения",
-  "immersive_aircraft.slot.im_filter": "Фильтр предметов"
+  "immersive_aircraft.slot.cm_cakes": "Осколки аметиста для более быстрого бурения",
+  "immersive_aircraft.slot.cm_filter": "Фильтр предметов"
 }

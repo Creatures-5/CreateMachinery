@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Vŕtačka zapnutá",
   "create_machinery.tunnel_digger.drill_off": "Vŕtačka vypnutá",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% rýchlosť vŕtania",
-  "immersive_aircraft.slot.im_shards": "Ametystové kusy na rýchlejšie vŕtanie",
-  "immersive_aircraft.slot.im_filter": "Filtrovač predmetov"
+  "immersive_aircraft.slot.cm_cakes": "Ametystové kusy na rýchlejšie vŕtanie",
+  "immersive_aircraft.slot.cm_filter": "Filtrovač predmetov"
 }

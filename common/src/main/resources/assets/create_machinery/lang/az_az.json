@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Çayını işlət",
   "create_machinery.tunnel_digger.drill_off": "Çayı söndür",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% qazma sürəti",
-  "immersive_aircraft.slot.im_shards": "Daha sürətli qazma üçün Ametist Parçaları",
-  "immersive_aircraft.slot.im_filter": "Məhsul Filtri"
+  "immersive_aircraft.slot.cm_cakes": "Daha sürətli qazma üçün Ametist Parçaları",
+  "immersive_aircraft.slot.cm_filter": "Məhsul Filtri"
 }

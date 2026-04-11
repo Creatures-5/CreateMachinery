@@ -96,7 +96,7 @@ public class TunnelDigger extends MachineEntity {
                 while (!positions.isEmpty() && drillPower > 0) {
                     BlockPos blockPos = positions.remove(random.nextInt(positions.size()));
                     float destroySpeed = Utils.mineBlock(level, blockPos, this);
-                    burnShards(destroySpeed);
+                    burnCakes(destroySpeed);
                     drillPower -= destroySpeed;
                 }
             }
@@ -121,18 +121,18 @@ public class TunnelDigger extends MachineEntity {
     }
 
     public float getDrillSpeed() {
-        return (hasShards() ? 2.0f : 1.0f) * this.getProperties().get(Common.DRILLING_SPEED);
+        return (hasCakes() ? 2.0f : 1.0f) * this.getProperties().get(Common.DRILLING_SPEED);
     }
 
-    public boolean hasShards() {
-        return getSlots(Common.SLOT_SHARDS).stream().anyMatch(slot -> !slot.isEmpty());
+    public boolean hasCakes() {
+        return getSlots(Common.SLOT_CAKES).stream().anyMatch(slot -> !slot.isEmpty());
     }
 
-    public void burnShards(float destroySpeed) {
-        if (random.nextFloat() < destroySpeed / 64.0) {
-            List<ItemStack> shards = getSlots(Common.SLOT_SHARDS);
-            if (!shards.isEmpty()) {
-                shards.get(random.nextInt(shards.size())).shrink(1);
+    public void burnCakes(float destroySpeed) {
+        if (random.nextFloat() < destroySpeed / 640.0) {
+            List<ItemStack> cakes = getSlots(Common.SLOT_CAKES);
+            if (!cakes.isEmpty()) {
+                cakes.get(random.nextInt(cakes.size())).shrink(1);
             }
         }
     }

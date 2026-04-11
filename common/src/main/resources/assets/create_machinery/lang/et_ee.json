@@ -37,6 +37,6 @@
   "create_machinery.tunnel_digger.drill_on": "Puur edasi",
   "create_machinery.tunnel_digger.drill_off": "Puur maha",
   "immersive_aircraft.upgrade.drillingspeed": "%s%% puurimiskiirus",
-  "immersive_aircraft.slot.im_shards": "Ametüstikillud kiiremaks puurimiseks",
-  "immersive_aircraft.slot.im_filter": "Elemendi filter"
+  "immersive_aircraft.slot.cm_cakes": "Ametüstikillud kiiremaks puurimiseks",
+  "immersive_aircraft.slot.cm_filter": "Elemendi filter"
 }
