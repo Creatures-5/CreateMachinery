@@ -38,8 +38,11 @@ subprojects {
 
     dependencies {
         minecraft "com.mojang:minecraft:${rootProject.architectury.minecraft}"
-        // Can't use parchment for some reason, game ends up completely unmapped
-        mappings loom.officialMojangMappings()
+        mappings loom.layered() {
+            officialMojangMappings()
+            parchment("org.parchmentmc.data:parchment-${rootProject.minecraft_version}:${rootProject.parchment_version}@zip")
+            //allegedly parchment can break some Create integration features, but this doesn't seem to be an issue?
+        }
 
         // see each subproject for more dependencies
     }
