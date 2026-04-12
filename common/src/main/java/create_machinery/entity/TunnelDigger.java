@@ -19,6 +19,7 @@ import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.vehicle.DismountHelper;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import com.simibubi.create.AllItems;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
@@ -121,17 +122,21 @@ public class TunnelDigger extends MachineEntity {
     }
 
     public float getDrillSpeed() {
-        return (hasCakes() ? 2.0f : 1.0f) * this.getProperties().get(Common.DRILLING_SPEED);
+        return (hasCakes() ? 3.0f : 1.0f) * this.getProperties().get(Common.DRILLING_SPEED);
     }
 
     public boolean hasCakes() {
         return getSlots(Common.SLOT_CAKES).stream().anyMatch(slot -> !slot.isEmpty());
     }
 
+    public boolean isCreativeFuel(List<ItemStack> cakes) {
+        return AllItems.CREATIVE_BLAZE_CAKE.isIn(cakes.get(0));
+    }
+
     public void burnCakes(float destroySpeed) {
         if (random.nextFloat() < destroySpeed / 640.0) {
             List<ItemStack> cakes = getSlots(Common.SLOT_CAKES);
-            if (!cakes.isEmpty()) {
+            if (!cakes.isEmpty() && !isCreativeFuel(cakes)) {
                 cakes.get(random.nextInt(cakes.size())).shrink(1);
             }
         }

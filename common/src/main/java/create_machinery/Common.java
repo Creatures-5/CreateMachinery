@@ -22,7 +22,7 @@ public final class Common {
     // Define slot types
     public static final String SLOT_FILTER = registerSlotType("cm_filter", TooltippedSlotDescription::new, TooltippedSlotDescription::new);
     public static final String SLOT_CAKES = registerSlotType("cm_cakes",
-            (type, index, x, y, json) -> new IngredientSlotDescription(type, index, x, y, json, Ingredient.of(AllItems.BLAZE_CAKE), 64),
+            (type, index, x, y, json) -> new IngredientSlotDescription(type, index, x, y, json, Ingredient.of(AllItems.BLAZE_CAKE, AllItems.CREATIVE_BLAZE_CAKE), 64),
             IngredientSlotDescription::new);
 
 
