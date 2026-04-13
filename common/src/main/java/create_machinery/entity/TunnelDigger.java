@@ -115,14 +115,21 @@ public class TunnelDigger extends MachineEntity {
                 boolean fire = level().random.nextFloat() < engineSpinUpStrength;
                 Matrix4f transform = getVehicleTransform();
                 Vector4f pos = transformPosition(transform, 1.0f, 2.85f, -0.9375f);
-                if (fire == true && !hasCakes()) {
-                    level().addParticle(ParticleTypes.SMALL_FLAME, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
-                }
-                else if (fire == true && hasCakes()) {
-                    level().addParticle(ParticleTypes.SOUL_FIRE_FLAME, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                if (fire == true) {
+                    if (hasCakes()) {
+                        level().addParticle(ParticleTypes.SOUL_FIRE_FLAME, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                    }
+                    else {
+                        level().addParticle(ParticleTypes.SMALL_FLAME, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                    }
                 }
                 else {
-                    level().addParticle(ParticleTypes.SMOKE, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                    if (hasCakes()) {
+                        level().addParticle(ParticleTypes.SOUL, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                    }
+                    else {
+                        level().addParticle(ParticleTypes.SMOKE, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                    }
                 }
             }
         }
