@@ -19,14 +19,13 @@ import net.minecraft.world.entity.Pose;
 import net.minecraft.world.entity.vehicle.DismountHelper;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import com.simibubi.create.AllItems;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 import org.joml.Matrix4f;
 import org.joml.Vector3f;
 import org.joml.Vector4f;
-
+import com.simibubi.create.AllItems;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -115,8 +114,16 @@ public class TunnelDigger extends MachineEntity {
             if (level().random.nextDouble() < chance) {
                 boolean fire = level().random.nextFloat() < engineSpinUpStrength;
                 Matrix4f transform = getVehicleTransform();
-                Vector4f pos = transformPosition(transform, 1.0f, 2.45f, -0.9375f);
-                level().addParticle(fire ? ParticleTypes.SMALL_FLAME : ParticleTypes.SMOKE, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                Vector4f pos = transformPosition(transform, 1.0f, 2.85f, -0.9375f);
+                if (fire == true && !hasCakes()) {
+                    level().addParticle(ParticleTypes.SMALL_FLAME, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                }
+                else if (fire == true && hasCakes()) {
+                    level().addParticle(ParticleTypes.SOUL_FIRE_FLAME, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                }
+                else {
+                    level().addParticle(ParticleTypes.SMOKE, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                }
             }
         }
     }
