@@ -124,11 +124,9 @@ public class TunnelDigger extends MachineEntity {
                     }
                 }
                 else {
+                    level().addParticle(ParticleTypes.SMOKE, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
                     if (hasCakes()) {
-                        level().addParticle(ParticleTypes.SOUL, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
-                    }
-                    else {
-                        level().addParticle(ParticleTypes.SMOKE, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                        level().addParticle(ParticleTypes.SOUL_FIRE_FLAME, pos.x, pos.y, pos.z, 0.0, 0.05, 0.0);
                     }
                 }
             }
