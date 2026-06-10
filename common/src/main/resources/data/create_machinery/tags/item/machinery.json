@@ -1,6 +1,7 @@
 {
   "values": [
     "create_machinery:tunnel_digger",
+    "create_machinery:half_track",
     "create_machinery:bamboo_bee",
     "create_machinery:redstone_sheep",
     "create_machinery:copperfin"

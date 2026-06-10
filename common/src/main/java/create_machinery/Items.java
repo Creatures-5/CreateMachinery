@@ -5,6 +5,7 @@ import create_machinery.entity.BambooBee;
 import create_machinery.entity.Copperfin;
 import create_machinery.entity.RedstoneSheep;
 import create_machinery.entity.TunnelDigger;
+import create_machinery.entity.HalfTrack;
 import create_machinery.item.BambooBeeItem;
 import create_machinery.item.MachineryItem;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -20,6 +21,9 @@ public interface Items {
 
     Supplier<Item> TUNNEL_DIGGER = register("tunnel_digger", () -> new MachineryItem(vehicleProp(),
             world -> new TunnelDigger(Entities.TUNNEL_DIGGER.get(), world)));
+    
+    Supplier<Item> HALF_TRACK = register("half_track", () -> new MachineryItem(vehicleProp(),
+            world -> new HalfTrack(Entities.HALF_TRACK.get(), world)));
 
     Supplier<Item> BAMBOO_BEE = register("bamboo_bee", () -> new BambooBeeItem(vehicleProp(),
             world -> new BambooBee(Entities.BAMBOO_BEE.get(), world)));

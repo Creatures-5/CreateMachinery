@@ -5,6 +5,7 @@ import create_machinery.entity.BambooBee;
 import create_machinery.entity.Copperfin;
 import create_machinery.entity.RedstoneSheep;
 import create_machinery.entity.TunnelDigger;
+import create_machinery.entity.HalfTrack;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
@@ -16,6 +17,13 @@ import java.util.function.Supplier;
 public interface Entities {
     Supplier<EntityType<TunnelDigger>> TUNNEL_DIGGER = register("tunnel_digger", EntityType.Builder
             .of(TunnelDigger::new, MobCategory.MISC)
+            .sized(2.8f, 2.8f)
+            .clientTrackingRange(14)
+            .fireImmune()
+    );
+
+    Supplier<EntityType<HalfTrack>> HALF_TRACK = register("half_track", EntityType.Builder
+            .of(HalfTrack::new, MobCategory.MISC)
             .sized(2.8f, 2.8f)
             .clientTrackingRange(14)
             .fireImmune()

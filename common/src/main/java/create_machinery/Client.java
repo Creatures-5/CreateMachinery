@@ -9,9 +9,11 @@ import create_machinery.client.gui.MachinerySlotRenderer;
 import create_machinery.client.gui.screen.BambooBeeScreen;
 import create_machinery.client.gui.screen.CopperfinScreen;
 import create_machinery.client.gui.screen.TunnelDiggerScreen;
+import create_machinery.client.gui.screen.HalfTrackScreen;
 import create_machinery.entity.BambooBee;
 import create_machinery.entity.Copperfin;
 import create_machinery.entity.TunnelDigger;
+import create_machinery.entity.HalfTrack;
 import create_machinery.network.ClientNetworkManager;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
@@ -25,6 +27,7 @@ public class Client {
         // Register screen handlers
         registerVehicleScreen(BambooBee.class, (vehicle, handler, player) -> new BambooBeeScreen(vehicle, handler, player.getInventory(), vehicle.getDisplayName()));
         registerVehicleScreen(TunnelDigger.class, (vehicle, handler, player) -> new TunnelDiggerScreen(vehicle, handler, player.getInventory(), vehicle.getDisplayName()));
+        registerVehicleScreen(HalfTrack.class, (vehicle, handler, player) -> new HalfTrackScreen(vehicle, handler, player.getInventory(), vehicle.getDisplayName()));
         registerVehicleScreen(Copperfin.class, (vehicle, handler, player) -> new CopperfinScreen(vehicle, handler, player.getInventory(), vehicle.getDisplayName()));
 
         // Register slot renderers
