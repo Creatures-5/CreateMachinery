@@ -28,11 +28,11 @@ public class HalfTrackScreen extends VehicleScreen {
         super.init();
 
         // Drill button
-        MutableComponent text = Component.translatable("gui.create_machinery.half_track.drill", KeyBindings.HORN.getTranslatedKeyMessage());
+        MutableComponent text = Component.translatable("gui.create_machinery.half_track.assist", KeyBindings.HORN.getTranslatedKeyMessage());
         ImageButton help = new ImageButton(getX() + 160, getY() + 5,
                 10, 10,
                 64, 0, 10, TEXTURE, 128, 128,
-                b -> digger.toggleDrill(), text);
+                b -> digger.toggleAssist(), text);
         help.setTooltip(Tooltip.create(text));
         addRenderableWidget(help);
     }
