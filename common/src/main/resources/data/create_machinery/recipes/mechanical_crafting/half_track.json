@@ -1,0 +1,39 @@
+{
+  "type": "create:mechanical_crafting",
+  "acceptMirrored": true,
+  "key": {
+    "A": {
+      "item": "create:andesite_casing"
+    },
+    "G": {
+      "item": "immersive_aircraft:improved_landing_gear"
+    },
+    "V": {
+      "item": "create:item_vault"
+    },
+    "C": {
+      "item": "create:contraption_controls"
+    },
+    "E": {
+      "item": "immersive_aircraft:engine"
+    },
+    "S": {
+      "tag": "create:seats"
+    },
+    "B": {
+      "item": "create:belt_connector"
+    },
+    "W": {
+      "item": "create:industrial_iron_window"
+    }
+  },
+  "pattern": [
+    "SSCW",
+    "VAAE",
+    "BB G"
+  ],
+  "result": {
+    "count": 1,
+    "item": "create_machinery:half_track"
+  }
+}
