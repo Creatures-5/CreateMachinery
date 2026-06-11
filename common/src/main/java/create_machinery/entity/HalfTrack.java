@@ -65,12 +65,15 @@ public class HalfTrack extends MachineEntity {
             if (level().random.nextDouble() < chance) {
                 boolean fire = level().random.nextFloat() < engineSpinUpStrength;
                 Matrix4f transform = getVehicleTransform();
-                Vector4f pos = transformPosition(transform, 1.0f, 2.85f, -0.9375f);
+                Vector4f pos1 = transformPosition(transform, 0.9f, 1.1f, -2.65f);
+                Vector4f pos2 = transformPosition(transform, -0.9f, 1.1f, -2.65f);
                 if (fire == true) {
-                    level().addParticle(ParticleTypes.SMALL_FLAME, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                    level().addParticle(ParticleTypes.SMALL_FLAME, pos1.x, pos1.y, pos1.z, 0.0, 0.1, -0.02);
+                    level().addParticle(ParticleTypes.SMALL_FLAME, pos2.x, pos2.y, pos2.z, 0.0, 0.1, -0.02);
                 }
                 else {
-                    level().addParticle(ParticleTypes.SMOKE, pos.x, pos.y, pos.z, 0.0, 0.1, 0.0);
+                    level().addParticle(ParticleTypes.SMOKE, pos1.x, pos1.y, pos1.z, 0.0, 0.1, -0.02);
+                    level().addParticle(ParticleTypes.SMOKE, pos2.x, pos2.y, pos2.z, 0.0, 0.1, -0.02);
                 }
             }
         }
@@ -136,7 +139,7 @@ public class HalfTrack extends MachineEntity {
     }
 
     public Vec3 attemptToDismount(LivingEntity passenger, float ox, float oy, float oz) {
-        Vector3f p = new Vector3f((float) getX() + ox * 2.0f, (float) getY() + oy * 2.0f, (float) getZ() + oz * 2.0f);
+        Vector3f p = new Vector3f((float) getX() + ox * 2.0f, (float) getY() + oy * 2.0f, (float) getZ() + oz * 3.0f);
         Vec3 position = new Vec3(p.x, p.y, p.z);
         for (Pose entityPose : passenger.getDismountPoses()) {
             if (DismountHelper.canDismountTo(level(), position, passenger, entityPose)) {
@@ -151,14 +154,14 @@ public class HalfTrack extends MachineEntity {
     public @NotNull Vec3 getDismountLocationForPassenger(LivingEntity passenger) {
         Vec3 dismountLocation;
         Vector3f forwardDirection = getForwardDirection();
-        dismountLocation = attemptToDismount(passenger, -forwardDirection.x(), 0.5f, -forwardDirection.z());
-        if (dismountLocation != null) return dismountLocation;
         Vector3f rightDirection = getRightDirection();
         dismountLocation = attemptToDismount(passenger, rightDirection.x(), 0.0f, rightDirection.z());
         if (dismountLocation != null) return dismountLocation;
         dismountLocation = attemptToDismount(passenger, -rightDirection.x(), 0.0f, -rightDirection.z());
         if (dismountLocation != null) return dismountLocation;
-        dismountLocation = attemptToDismount(passenger, forwardDirection.x(), 0.5f, forwardDirection.z());
+        dismountLocation = attemptToDismount(passenger, -forwardDirection.x(), 0.0f, -forwardDirection.z());
+        if (dismountLocation != null) return dismountLocation;
+        dismountLocation = attemptToDismount(passenger, forwardDirection.x(), 0.0f, forwardDirection.z());
         if (dismountLocation != null) return dismountLocation;
         return super.getDismountLocationForPassenger(passenger);
     }

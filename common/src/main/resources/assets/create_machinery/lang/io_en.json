@@ -1,6 +1,7 @@
 {
   "itemGroup.create_machinery.create_machinery_tab": "Imersiva Machinario",
   "entity.create_machinery.tunnel_digger": "Tunel Digger",
+  "entity.create_machinery.half_track": "Half-Track",
   "entity.create_machinery.bamboo_bee": "Bambua Abeja",
   "entity.create_machinery.redstone_sheep": "Redstone Oveja",
   "entity.create_machinery.copperfin": "Kopra Fin",
@@ -27,6 +28,7 @@
   "gui.create_machinery.bamboo_bee.position_input": "Stabilita como input",
   "gui.create_machinery.bamboo_bee.help": "Opne help-pagin",
   "gui.create_machinery.tunnel_digger.drill": "Toggle drill (%s)",
+  "gui.create_machinery.half_track.assist":"Toggle steer assist (%s)",
   "gui.create_machinery.copperfin.sonar": "Sonar (%s)",
   "gui.create_machinery.bamboo_bee.whitelist": "Whitelist",
   "gui.create_machinery.bamboo_bee.blacklist": "Blacklist",

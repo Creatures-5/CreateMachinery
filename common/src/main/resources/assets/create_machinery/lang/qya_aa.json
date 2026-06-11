@@ -36,6 +36,8 @@
   "gui.create_machinery.bamboo_bee.order.first": "Auta i eruviel",
   "create_machinery.tunnel_digger.drill_on": "\"Drill on\"",
   "create_machinery.tunnel_digger.drill_off": "\"Drill off\"",
+  "create_machinery.half_track.assist_on":"Steer Assist on",
+  "create_machinery.half_track.assist_off":"Steer Assist off",
   "immersive_aircraft.upgrade.drillingspeed": "\"%s%% drilling speed\"",
   "immersive_aircraft.slot.cm_cakes": "\"Blaze Cakes for faster drilling\"",
   "immersive_aircraft.slot.cm_filter": "\"Item Filter\""
