@@ -1,9 +1,10 @@
 {
   "properties": {
+    "acceleration":0.3,
     "durability": 4,
     "fuel": 5.0,
-    "yawSpeed": 7.0,
-    "engineSpeed": 0.2,
+    "yawSpeed": 12.0,
+    "engineSpeed": 1.0,
     "verticalSpeed": 0.025,
     "rollFactor": 5.0,
     "mass": 5.0,

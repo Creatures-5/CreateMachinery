@@ -24,7 +24,7 @@ public interface Entities {
 
     Supplier<EntityType<HalfTrack>> HALF_TRACK = register("half_track", EntityType.Builder
             .of(HalfTrack::new, MobCategory.MISC)
-            .sized(2.8f, 2.8f)
+            .sized(3.0f, 2.8f)
             .clientTrackingRange(14)
             .fireImmune()
     );
